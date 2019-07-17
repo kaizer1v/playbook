@@ -32,7 +32,7 @@ d3.select("p")
       .attr('x', function(d) {return d-20})
   })
 ```
-<iframe src="recipes/transitions-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
+<iframe src="../recipes/transitions-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
 
 ## Add duration
 You can control attribute change interpolation over time by setting `duration`
@@ -41,7 +41,7 @@ You can control attribute change interpolation over time by setting `duration`
   .transition()
   .duration(1000)  // in milliseconds
 ```
-<iframe src="recipes/transitions-duration-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
+<iframe src="../recipes/transitions-duration-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
 
 ## Add Easing
 Easing is a method of distorting time to control apparent motion in animation.
@@ -51,7 +51,7 @@ Easing is a method of distorting time to control apparent motion in animation.
   .duration(1000)  // in milliseconds
   .ease("linear")   // among cubic, poly, sin, bounce, elastic
 ```
-<iframe src="recipes/transitions-ease-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
+<iframe src="../recipes/transitions-ease-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
 
 or bounce them up.
 
@@ -60,7 +60,7 @@ or bounce them up.
   .duration(1000)
   .ease("bounce")
 ```
-<iframe src="recipes/transitions-ease-bounce-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
+<iframe src="../recipes/transitions-ease-bounce-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
 
 ## Add Delay
 also, you could delay the transition after the event, using `.delay()`
@@ -70,4 +70,4 @@ also, you could delay the transition after the event, using `.delay()`
   .duration(1000)
   .delay(400)
 ```
-<iframe src="recipes/transitions-delay-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
+<iframe src="../recipes/transitions-delay-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>

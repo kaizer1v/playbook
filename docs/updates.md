@@ -13,7 +13,7 @@ var chart = d3.select('svg')     // select svg
   .attr('width', function(d) {return d})
   .attr('height', 25)
 ```
-<iframe src="recipes/updates-bar.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
+<iframe src="../recipes/updates-bar.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
 
 ## Update __data__
 
@@ -40,7 +40,7 @@ d3.select("p")
       .attr('width', function(d) {return d}) // visual attribute to be updated
   })
 ```
-<iframe src="recipes/updates-bar-pclick.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
+<iframe src="../recipes/updates-bar-pclick.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
 
 ## Updating labels too
 
@@ -62,4 +62,4 @@ d3.select("p")
       .text(function(d) {return d})         // value updated
   })
 ```
-<iframe src="recipes/updates-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
+<iframe src="../recipes/updates-bar-pclick-labels.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>

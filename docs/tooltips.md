@@ -20,7 +20,7 @@ circles.on("mouseover", function(d) {
     tip.style("opacity", 0)
   })
 ```
-<iframe src="recipes/tooltip-scatter.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
+<iframe src="../recipes/tooltip-scatter.html" sandbox="allow-same-origin allow-scripts" onload="this.style.height=this.contentDocument.documentElement.scrollHeight+2+'px';"></iframe>
 
 By the way, we need to style the tooltip.
 
